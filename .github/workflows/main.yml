@@ -39,7 +39,7 @@ jobs:
       with:
         script: |
           const commit = await github.rest.repos.getCommit({
-            owner: 'tindy2013',
+            owner: 'wdnmd546',
             repo: 'subconverter',
             ref: `master`
           })
